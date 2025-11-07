@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: database-deployment
-  namespace: webapp
+  namespace: dev
   labels:
     app: database-deployment
 spec:

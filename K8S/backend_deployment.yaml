@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend-deployment
-  namespace: webapp
+  namespace: dev
   labels:
     app: backend-deployment
 spec:

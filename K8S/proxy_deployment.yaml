@@ -2,14 +2,14 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: proxy-deployment
-  namespace: webapp
+  namespace: dev
   labels:
     app: proxy-deployment
 spec:
   selector:
     matchLabels:
       app: proxy
-  replicas: 2
+  replicas: 2 
   template:
     metadata:
       labels:
